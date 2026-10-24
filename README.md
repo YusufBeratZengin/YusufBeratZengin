@@ -14,6 +14,11 @@ I build small, well-tested developer tools for AI agents, prompts, i18n, Turkish
 ## All projects
 
 ### AI agents & LLM tooling
+| [agent-cost](https://github.com/YusufBeratZengin/agent-cost) | Token usage and cost reports from local agent session logs. | Python |
+| [llms-txt-gen](https://github.com/YusufBeratZengin/llms-txt-gen) | Generate and validate llms.txt files from repos or Markdown docs. | JavaScript |
+| [mcp-audit](https://github.com/YusufBeratZengin/mcp-audit) | Audit MCP server configs for secrets, unpinned packages, and risky access. | JavaScript |
+| [openapi-to-mcp](https://github.com/YusufBeratZengin/openapi-to-mcp) | Turn OpenAPI specs into read-only-by-default MCP tools. | TypeScript |
+| [prompt-eval-lite](https://github.com/YusufBeratZengin/prompt-eval-lite) | Regression tests for LLM prompts with baselines and flakiness checks. | Python |
 
 | Project | Description | Language |
 | --- | --- | --- |
@@ -33,6 +38,8 @@ I build small, well-tested developer tools for AI agents, prompts, i18n, Turkish
 | [readme-i18n-sync](https://github.com/YusufBeratZengin/readme-i18n-sync) | Detect structural drift between source docs and translations. | JavaScript |
 
 ### Turkish language
+| [tr-normalize](https://github.com/YusufBeratZengin/tr-normalize) | Correct Turkish casing, sorting, ASCII folding, and slugs. | Python |
+| [tr-tarih](https://github.com/YusufBeratZengin/tr-tarih) | Parse and format Turkish dates, numbers, and lira amounts offline. | Python |
 
 | Project | Description | Language |
 | --- | --- | --- |
@@ -50,6 +57,7 @@ I build small, well-tested developer tools for AI agents, prompts, i18n, Turkish
 | [video-qa](https://github.com/YusufBeratZengin/video-qa) | Check rendered video and audio quality locally with FFmpeg. | Python |
 
 ### Dev utilities
+| [jsonl-tools](https://github.com/YusufBeratZengin/jsonl-tools) | Stream, filter, inspect, and validate large JSONL files. | Python |
 
 | Project | Description | Language |
 | --- | --- | --- |
@@ -64,6 +72,10 @@ I build small, well-tested developer tools for AI agents, prompts, i18n, Turkish
 
 ## Open-source contributions
 
-Translations and fixes to upstream projects — list coming soon.
+- [siyuan-note/siyuan#20858](https://github.com/siyuan-note/siyuan/pull/20858) — Turkish translation updates (merged)
+- [logseq/logseq#13837](https://github.com/logseq/logseq/pull/13837) — Turkish translation updates
+- [AppFlowy-IO/AppFlowy#9092](https://github.com/AppFlowy-IO/AppFlowy/pull/9092) — Turkish translation updates
+- [makeplane/plane#10107](https://github.com/makeplane/plane/pull/10107) — Turkish translation fixes
+- [ghostfolio/ghostfolio#8295](https://github.com/ghostfolio/ghostfolio/pull/8295) — Turkish translation updates
 
 [Türkçe](README.tr.md)

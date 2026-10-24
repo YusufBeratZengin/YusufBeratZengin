@@ -22,6 +22,11 @@ Yapay zekâ ajanları, prompt denetimi, yerelleştirme, Türkçe metin işleme v
 | [llm-bridge](https://github.com/YusufBeratZengin/llm-bridge) | Dışarı giden veriyi denetleyerek CLI ve kütüphane üzerinden kodlama ajanlarına görev aktarır. | JavaScript |
 | [md-context](https://github.com/YusufBeratZengin/md-context) | Yerel Markdown notlarından token sınırına uygun bağlam paketleri oluşturur. | Python |
 | [prompt-lint](https://github.com/YusufBeratZengin/prompt-lint) | LLM promptlarını ve ajan talimat dosyalarını denetler. | JavaScript |
+| [agent-cost](https://github.com/YusufBeratZengin/agent-cost) | Yerel ajan oturum kayıtlarından token ve maliyet raporu çıkarır. | Python |
+| [llms-txt-gen](https://github.com/YusufBeratZengin/llms-txt-gen) | Depodan ya da Markdown belgelerden llms.txt üretir ve doğrular. | JavaScript |
+| [mcp-audit](https://github.com/YusufBeratZengin/mcp-audit) | MCP sunucu ayarlarında açık sır, sabitlenmemiş paket ve riskli erişimi denetler. | JavaScript |
+| [openapi-to-mcp](https://github.com/YusufBeratZengin/openapi-to-mcp) | OpenAPI tanımlarını varsayılanı salt okunur MCP araçlarına çevirir. | TypeScript |
+| [prompt-eval-lite](https://github.com/YusufBeratZengin/prompt-eval-lite) | LLM promptları için gerileme testleri; referans çıktı ve kararsızlık ölçümüyle. | Python |
 
 ### Yerelleştirme ve dokümantasyon
 
@@ -38,6 +43,8 @@ Yapay zekâ ajanları, prompt denetimi, yerelleştirme, Türkçe metin işleme v
 | --- | --- | --- |
 | [tr-pii](https://github.com/YusufBeratZengin/tr-pii) | Türkçe metinlerdeki kişisel verileri çevrimdışı tespit eder ve maskeler. | Python |
 | [turkce-denetim](https://github.com/YusufBeratZengin/turkce-denetim) | Türkçe metinlerde kalıp ifadeleri, çeviri kokan kullanımları ve yazım tutarsızlıklarını işaretler. | Python |
+| [tr-normalize](https://github.com/YusufBeratZengin/tr-normalize) | Türkçe büyük/küçük harf, sıralama, ASCII dönüşümü ve slug üretir. | Python |
+| [tr-tarih](https://github.com/YusufBeratZengin/tr-tarih) | Türkçe tarih, sayı ve lira tutarlarını çevrimdışı ayrıştırır ve biçimler. | Python |
 
 ### Video ve medya
 
@@ -61,9 +68,14 @@ Yapay zekâ ajanları, prompt denetimi, yerelleştirme, Türkçe metin işleme v
 | [license-scan](https://github.com/YusufBeratZengin/license-scan) | Node.js ve Python projelerinin bağımlılık lisanslarını çevrimdışı envanterler. | Python |
 | [osm-poi](https://github.com/YusufBeratZengin/osm-poi) | OpenStreetMap ilgi noktalarını CSV, GeoJSON veya JSONL olarak dışa aktarır. | Python |
 | [site-audit-lite](https://github.com/YusufBeratZengin/site-audit-lite) | Sitelerin SEO, erişilebilirlik, güvenlik başlıkları ve kırık bağlantılarını denetler. | JavaScript |
+| [jsonl-tools](https://github.com/YusufBeratZengin/jsonl-tools) | Büyük JSONL dosyalarını akışla süzer, inceler ve doğrular. | Python |
 
 ## Açık kaynak katkıları
 
-Açık kaynak projelere çeviri ve düzeltme katkıları — liste yakında eklenecek.
+- [siyuan-note/siyuan#20858](https://github.com/siyuan-note/siyuan/pull/20858) — Türkçe çeviri güncellemesi (birleştirildi)
+- [logseq/logseq#13837](https://github.com/logseq/logseq/pull/13837) — Türkçe çeviri güncellemesi
+- [AppFlowy-IO/AppFlowy#9092](https://github.com/AppFlowy-IO/AppFlowy/pull/9092) — Türkçe çeviri güncellemesi
+- [makeplane/plane#10107](https://github.com/makeplane/plane/pull/10107) — Türkçe çeviri düzeltmeleri
+- [ghostfolio/ghostfolio#8295](https://github.com/ghostfolio/ghostfolio/pull/8295) — Türkçe çeviri güncellemesi
 
 [English](README.md)
